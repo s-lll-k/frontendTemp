@@ -1,5 +1,9 @@
 @import "variables.scss";
-
+@import "reset-style.scss";
 body {
-    background-color: $color-primary;
+    // background-color: $color-primary;
+}
+
+.class {
+    font-style: 14px;
 }

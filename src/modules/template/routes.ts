@@ -6,4 +6,9 @@ export const templateRoutes: RouteRecordRaw[] = [
         name: "TemplatePage",
         component: () => import("./pages/TemplatePage.vue"),
     },
+    {
+        path: "/MainPage",
+        name: "MainPage",
+        component: () => import("./pages/MainPage.vue"),
+    },
 ];
